@@ -1,0 +1,14 @@
+[project]
+name = "riskaiagent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bedrock-agentcore>=1.28.0",
+    "boto3>=1.44.12",
+    "boto3-stubs~=1.44.12",
+    "dotenv>=0.9.9",
+    "python-dotenv>=1.2.4",
+    "strands-agents>=1.67.0",
+]

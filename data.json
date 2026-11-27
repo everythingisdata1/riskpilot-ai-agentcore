@@ -1,0 +1,29 @@
+{
+    "stress_percentages": 5,
+    "portfolio_results": [
+        {
+            "portfolio": "Home Loans",
+            "baseline_pd": 0.02,
+            "baseline_ecl_cr": 0.7,
+            "stressed_pd": 0.021,
+            "stressed_ecl_cr": 0.735
+        },
+        {
+            "portfolio": "Personal Loans",
+            "baseline_pd": 0.05,
+            "baseline_ecl_cr": 1.5,
+            "stressed_pd": 0.0525,
+            "stressed_ecl_cr": 1.575
+        },
+        {
+            "portfolio": "Business Loans",
+            "baseline_pd": 0.04,
+            "baseline_ecl_cr": 2.7,
+            "stressed_pd": 0.042,
+            "stressed_ecl_cr": 2.835
+        }
+    ],
+    "baseline_total_ecl_cr": 4.9,
+    "stressed_total_ecl_cr": 5.145,
+    "incremental_loss_cr": 0
+}
