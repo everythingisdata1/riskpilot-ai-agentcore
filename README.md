@@ -38,7 +38,7 @@ aws configure
 Alternatively, configure AWS SSO:
 
 ```bash
-aws configure sso --profile riskpilot-dev
+aws configure sso --profile agent-dev
 ```
 
 Verify your AWS identity:
@@ -118,6 +118,12 @@ Invoke your deployed Runtime:
 ```bash
 agentcore invoke --runtime agent --payload '{"prompt":"Hello, what can you do?"}'
 ```
+## Testing Prompt
+ 
+    Show me all loan portfolios and their exposure.
+    Calculate the total expected credit loss.
+    What happens if default rates increase by 20%?
+    Which portfolio has the highest stressed credit risk?
 
 ## Objectives
 

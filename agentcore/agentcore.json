@@ -4,10 +4,10 @@
   "managedBy": "CDK",
   "runtimes": [
     {
-      "name": "riskpilot",
+      "name": "agent",
       "build": "CodeZip",
       "entrypoint": "main.py",
-      "codeLocation": "app/riskpilot",
+      "codeLocation": "app/agent",
       "runtimeVersion": "PYTHON_3_14",
       "protocol": "HTTP"
     }

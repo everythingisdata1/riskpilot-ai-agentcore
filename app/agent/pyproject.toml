@@ -1,4 +1,4 @@
-[project]
+ [project]
 name = "riskaiagent"
 version = "0.1.0"
 description = "Add your description here"
@@ -12,3 +12,4 @@ dependencies = [
     "python-dotenv>=1.2.4",
     "strands-agents>=1.67.0",
 ]
+
